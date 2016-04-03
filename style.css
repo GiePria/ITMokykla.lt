@@ -1,66 +1,58 @@
-
-body {
-    font-family: arial, helvetica, sans-serif;
-    font-size: 14px;
-    color: navy;
-    font-weight:900;
-    text-decoration: none;
+header {
+    background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=30000&soubor=blue-sky-with-small-clouds.jpg&id=26990");
+    color:navy;
+    text-align:center;
+    padding:5px;	 
 }
-
-h1 {
-    color: #ffc;
-    background-color: #900;
-    font-size: 2em;
-    margin: 0;
-    margin-bottom: 7px;
-    padding: 4px;
-    font-style: italic;
-    text-align: center;
-    letter-spacing: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-width: 0.5em;
-    border-bottom-color: #c00;
+nav {
+    line-height:30px;
+    background-image: url("http://www.finzionimagazine.it/wp-content/uploads/2013/06/music-not-big.jpg");
+    height:290px;
+    width:140px;
+    float:left;
+    padding:5px;	      
 }
-h2 {
+section {
+    width:900px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=30000&soubor=blue-sky-with-small-clouds.jpg&id=26990");
+    color:navy;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+.button {
+    background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=30000&soubor=blue-sky-with-small-clouds.jpg&id=26990");
+    border: none;
     color: white;
-    background-color: #090;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 2px;
-    padding-left: 14px;
-}
-/* This is a comment, by the way */
-h3 {
-    color: #999;
-    font-size: 1.25em;
-}
-
-img {
-    border-style: dashed;
-    border-width: 2px;
-    border-color: #ccc;
-}
-
-a {
-    text-decoration: none;
-}
-
-strong {
-    font-style: italic;
-    text-transform: uppercase;
-}
-
-p {
-    letter-spacing: 0.5em;
-    word-spacing: 2em;
-    line-height: 21px;
+    padding: 10px 32px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
-li {
-    color: #900;
-    font-style: italic;
+.button1 {
+    background-color: blue; 
+    color: black; 
+    border: 2px solid #008CBA;
 }
 
-table {
-    background-color: #ccc;
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
 }
