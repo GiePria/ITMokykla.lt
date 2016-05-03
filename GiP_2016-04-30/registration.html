@@ -1,0 +1,33 @@
+<Docktype html>
+    <html>
+
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="registration.js"></script>
+        <link rel="stylesheet" href="registration.css">
+
+    </head>
+
+    <body>
+        <div class="success"> Registration successful</div>
+        <form action="" method="post" id="register-form" novalidate="novalidate">
+            
+            <label for="email">E-mail: </label><br>
+            <input id="email" type="email" name="email" required><br>
+            
+            <label for="username">User name:</label><br>
+            <input id="username" type="text" name="username" minlength="6" required><br>
+            
+            <label>Password:</label><br>
+            <input id = "password" type="password" name="password" minlength="6" required>
+            <br><br>
+            
+            <button class="button">Submit</button>
+
+        </form>
+
+
+    </body>
+
+    </html>
